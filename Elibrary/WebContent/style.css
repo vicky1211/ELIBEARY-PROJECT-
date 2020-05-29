@@ -1,0 +1,310 @@
+*{
+    margin:0px;
+    padding:0px;
+    scroll-behavior: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    color:white;
+    height: 50px;
+    background-color: royalblue;
+}
+header h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main{
+    display: flex;
+    background-color: turquoise;
+    width: 100%;
+    background-clip: unset;
+    background-image: url(../img/liibray.jpg);
+}
+
+main .form1{
+    margin-top: 90px;
+    margin-left: 200px;
+    margin-right: 150px;
+    background-color:#00ffff;
+    width: 400px;
+    height: 200px;
+    border: 1px solid green;
+    border-top-right-radius: 55px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 55px;
+}
+main .form1 h4{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: green;
+}
+
+main .form2 h4{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: green;
+}
+main .form2 input::placeholder{
+    color: white;
+    font-style:bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main .form1 input::placeholder{
+    color: white;
+    font-style: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main .form1 input{ 
+    margin-left: 60px; 
+    margin-bottom: 20px;
+    border-style: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    color:red;
+    background: none;
+}
+main .form2 input{
+  margin-bottom: 20px;
+  margin-left: 90px;
+  border-style: none;
+
+  border-bottom: 2px solid white;
+  outline: none;
+  color: red;
+  background: none;
+}
+main .form2 select{
+    margin-bottom: 20px;
+    border-style: none;
+    border-bottom: 2px solid gray;
+    outline:none;
+    color:green;
+    margin-left: 90px;
+    border-radius: 5px;
+}
+main .form2{ 
+    margin-top: 40px;
+    margin-right:200px;
+    margin-bottom:30px;
+    background-color:#00ffff;
+    width: 400px;
+    height:450px;
+    border: 1px solid green;
+    border-top-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+
+}
+main .form1 #submit{
+border: 2px solid black;
+border-radius: 5px;
+width: 60px;
+height: 25px;
+background-color: royalblue;
+color: white;
+}
+
+main .form2 #submit{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 60px;
+    height: 25px;
+    background-color: royalblue;
+    color: white;
+    }
+    
+main .form1 #submit:hover{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 60px;
+    height: 25px;
+    background-color: orange;
+    color:pink;
+    }
+    
+main .form2 #submit:hover{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 60px;
+    height: 25px;
+    background-color: orange;
+    color:pink;
+    }
+footer{
+    background-color: royalblue;
+    height: 50px;
+}
+footer p{
+    padding-top: 20px;
+    color: white;
+    margin-left: 40%;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+footer span{
+    color: orangered;
+}
+/*account page*/
+.display{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.accside{
+    background-color: #00ffff;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    padding: 20px;
+    border: 2px solid green;
+    border-top-left-radius :60px; 
+    border-bottom-right-radius:60px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}  
+.accside input{
+    margin-top: 20px;
+    margin-left: 10px;
+    background: none;
+   
+    outline: none;
+    border-style: none;
+    border-bottom: 1px solid green;
+}
+.accside h4{
+    color: green;
+}
+.searchbook h4{
+    color: green;
+}
+.searchbook{
+    padding: 20px;
+    padding-left: 50px;
+    padding-right:0px;
+    background-color: #00ffff;
+    margin-left: 100px;
+    width: 500px;
+    height: 330px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    border: 2px solid green ;
+    border-top-right-radius:80px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 80px;
+}
+.searchbook input{
+    margin-top: 20px;
+    text-align: center;
+    border: 0.5px solid green;
+    border-radius: 5px;
+}
+.searchbook #searchb{
+    width: 400px;
+    height: 35px;
+}
+.searchbook #submit:hover{
+    background-color: orangered;
+    border-color: white;
+}
+
+.searchbook #submit{
+    margin-left: 320px;
+    border: 1px solid green;
+    width: 80px;
+    height: 35px;
+    border-radius: 4px;
+    color: white;
+    background-color: blue;
+
+}
+/*navigation*/
+nav{
+    height: 35px;
+    background-color: #00ffff;
+}
+nav .nav{
+    padding-top: 10px;
+    margin-left: 500px;
+}
+nav a{
+    margin: 10px;
+    text-decoration: none;
+}
+
+/*searchbox*/
+main .main{
+    background-color: #00ffff;
+    margin: 50px;
+    width: 600px;
+    height: 400px;
+    margin-left: 360px;
+}
+main .main .searchbox{
+    background-color: blue;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+main .main .searchbox #searchb{
+    width: 400px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+main .main .searchbox #submit{
+    background-color: blue;
+    border-radius: 5px;
+    padding:8px;
+    color: white;
+}
+main .main .searchbox #submit:hover{
+background-color: orangered;
+
+border-color: blue;
+}
+main .main .table{
+    margin: 30px;
+}
+main .main .table table{
+    
+    margin-left:60px;
+    text-align: center;
+    border: 2px solid green;
+    border-collapse: inherit;
+    width: 400px;
+}
+main .main .table table tr th td{
+    border: 2px solid green;
+}
+/*issued book*/
+.issued{
+    margin-left: 320px;
+    background-color: #00ffff;
+    width: 800px;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.issued #title{
+    background-color: darkgrey;
+    height: 35px;
+    padding-left: 350px;
+    padding-top: 10px;
+    color: darkred;
+}
+.issued #table table{
+   border: 2px solid green;
+    margin: 50px;
+    margin-left: 180px;
+    width: 400px;
+}
+.issued #table table tr td th{
+    border: 2px solid green;
+}

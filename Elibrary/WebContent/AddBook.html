@@ -1,0 +1,78 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E_LIBRARY QSPIEDER</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/style.css">
+    <script src=""></script>
+</head>
+<body>
+    <header>
+        <div class="head">
+           <center>
+        <h1>E_library Admin Pannel</h1>
+    </center>
+        </div>
+    </header>
+    <style>
+
+        main #addBook{
+        margin-top:60px;
+        margin-left: 350px;
+        width: 600px;
+        background-color: #00ffff;
+        height: 400px;
+        margin-bottom: 70px;
+        border: 1px solid green;
+        border-top-right-radius: 115px;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 115px;
+    }
+    main #addBook input{
+        margin-top: 15px;
+        margin-bottom: 20px;
+        margin-left: 200px;
+        border-style: none;
+        border-bottom: 2px solid white;
+        outline: none;
+        color: red;
+        background: none;
+    }
+    main
+    main #addBook #submit:hover{
+    background-color: orangered;
+    border-color: white;
+}
+
+    main #addBook #submit{
+    margin-left: 280px;
+    border: 1px solid green;
+    width: 80px;
+    height: 35px;
+    border-radius: 4px;
+    color: white;
+    background-color: blue;
+
+}
+    </style>
+    <main>
+        <div id="addBook">
+      <form action="addBook" method="post">
+          <center><h4>Add Book</h4></center>
+          <input type="text" name="bid" placeholder="Enter BookId"><br>
+          <input type="text" name="bname" placeholder="Enter Book Name"><br>
+          <input type="text" name="bauther"placeholder="Enter BookAuther"><br>
+          <input type="text" name="bgen"placeholder="Enter Book Genaration"><br>
+          <input type="text" name="bprice"placeholder="Enter Book Price"><br>
+          <input type="text" name="bstatus"placeholder="status of book"><br>
+          <input type="submit" value="submit"id="submit">
+      </form>
+      </div>
+    </main>
+    <footer>
+        <p>&copy; All Right <span>Vivek Rakhonde </span> Reserved</p> </footer>
+</body>
+</html>
